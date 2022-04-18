@@ -182,8 +182,3 @@ def DH_to_Translations(DH):
         tr = np.matmul(tr,t)
     return tr
 
-#Inverse pose kinematics
-def IPK(init, fin):
-    x_i,y_i,z_i,phi_i = init[0],init[1],init[2],init[3]
-    x_f,y_f,z_f,phi_f = fin[0],fin[1],fin[2],fin[3]
-    return 0
