@@ -1,10 +1,9 @@
 import math
 import numpy as np
-import matplotlib.pyplot as plt
 
-#Bob Geng Robotics Library
+# Bob Geng Robotics Library
 
-#Convert Quaternions to Roll Pitch Yaw
+# Convert Quaternions to Roll Pitch Yaw
 def Quat_To_Euler(x, y, z, w):
     t0 = +2.0 * (w * x + y * z)
     t1 = +1.0 - 2.0 * (x * x + y * y)
